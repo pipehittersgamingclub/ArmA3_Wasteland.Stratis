@@ -72,7 +72,7 @@ if (isServer) then
 [] execVM "addons\R3F_ARTY_AND_LOG\init.sqf";
 [] execVM "addons\proving_ground\init.sqf";
 [] execVM "addons\JumpMF\init.sqf";
-[] execVM "zlt_fastrope.sqf"; 
-[] execVM "outlw_magRepack\MagRepack_init_sv.sqf";
+[] execVM "addons\zlt_fastrope.sqf"; 
+[] execVM "addons\outlw_magRepack\MagRepack_init_sv.sqf";
 [] execVM "addons\AF_Keypad\AF_KP_vars.sqf";			// Keypad for base locking
 if(hasInterface) then{[] execVM "addons\statusBar\statusbar.sqf"}; //Status Bar

@@ -54,9 +54,8 @@ loadScreen = "mapConfig\Loading.jpg";
 #include "client\systems\playerMenu\dialog\respawn_dialog.hpp"
 #include "client\systems\playerMenu\dialog\teamkill_dialog.hpp"
 #include "addons\proving_ground\PG_config.hpp"
-#include "outlw_magRepack\MagRepack_config.hpp"
-#include "CHVD\dialog.hpp"
-
+#include "addons\outlw_magRepack\MagRepack_config.hpp"
+#include "addons\CHVD\dialog.hpp"
 #include "addons\BoS\dialog\BoS_mainMenu.hpp"
 #include "addons\AF_Keypad\AF_KP_defines.hpp"
 #include "addons\AF_Keypad\AF_KP_dialogs.hpp"
@@ -74,7 +73,7 @@ class RscTitles
 
 class CfgFunctions
 {	
-	#include "CHVD\CfgFunctions.hpp"
+	#include "addons\CHVD\CfgFunctions.hpp"
 	
 	class A3W
 	{
